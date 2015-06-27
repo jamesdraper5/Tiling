@@ -14,6 +14,14 @@
 		<meta itemprop="description" content="West Cork Tiling offers high quality tiling in the West Cork area at an affordable price. If you need a tiler in the West Cork area then look no further.">
 		<meta itemprop="url" content="http://www.westcorktiling.com" >
 
+		<!-- Twitter Card meta tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@jamesdraper5">
+		<meta name="twitter:creator" content="@jamesdraper5">
+		<meta name="twitter:title" content="Parade of Fans for Houston’s Funeral">
+		<meta name="twitter:description" content="West Cork Tiling - quality affordable tiling in West Cork">
+		<meta name="twitter:image" content="http://www.westcorktiling.com/img/kitchen-tiling-4.jpg">
+
 		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Italianno|Mate+SC|Arvo" type="text/css"> -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400|Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/reset.css" media="screen" />
