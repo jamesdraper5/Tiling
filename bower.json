@@ -1,0 +1,24 @@
+{
+  "name": "tiling",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jamesdraper5/Tiling",
+  "authors": [
+    "James Draper <jamesdrape@gmail.com>"
+  ],
+  "description": "tiling website",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "photo.swipe": "~4.0.8"
+  }
+}
