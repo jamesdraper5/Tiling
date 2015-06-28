@@ -101,23 +101,8 @@
 				margin-bottom: 40px;
 			}
 
-			.slideshow {
-				background: #333;
-				margin-top: 40px;
-				color: #fff;
-				/*
-				height: 620px;
-				padding: 10px 0;
-				*/
-			}
-			.slideshow img {
-				border-top: 20px solid transparent;
-				border-right: 10px solid transparent;
-				border-bottom: 20px solid transparent;
-				border-left: 10px solid transparent;
-			}
-			.slideshow .slick-slider {
-				margin-bottom: 0
+			#gallery-descriptions {
+				display: none;
 			}
 		</style>
 
@@ -246,69 +231,7 @@
 				</section>
 			</section>
 
-
-
-			<!---
-			<hr>
-
-			<div class="row">
-
-				<div class="col-md-6 col-md-offset-3">
-
-					<div id="photos-carousel" class="carousel slide" data-ride="carousel">
-
-
-					  	<ol class="carousel-indicators">
-						    <li data-target="#photos-carousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#photos-carousel" data-slide-to="1"></li>
-						    <li data-target="#photos-carousel" data-slide-to="2"></li>
-					  	</ol>
-
-
-					  	<div class="carousel-inner" role="listbox">
-
-						    <div class="item active">
-								<img src="http://placekitten.com/640/400" alt="..." class="img-responsive">
-						    </div>
-						    <div class="item">
-								<img src="http://placekitten.com/640/400" alt="..." class="img-responsive">
-						    </div>
-					        <div class="item">
-					    		<img src="http://placekitten.com/640/400" alt="..." class="img-responsive">
-					        </div>
-
-						</div>
-
-
-						<a class="left carousel-control" href="#photos-carousel" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#photos-carousel" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-				</div>
-
-			</div>
-			<br/>
-
-
-			<div class="row">
-				<section class="col-md-6 col-md-offset-3">
-					<blockquote>A great quality professional tiling service
-						<small>David, Skibbereen, Co. Cork</small>
-					</blockquote>
-				</section>
-			</div>
-
-			<hr>
-			-->
 		</div>
-
-
-
 
 		<!-- Root element of PhotoSwipe. Must have class pswp. -->
 		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -375,156 +298,132 @@
 		</div>
 
 
-		<!--
-		<div itemscope itemtype="http://schema.org/ImageGallery">
+
+		<div id="gallery-descriptions" itemscope itemtype="http://schema.org/ImageGallery">
 
 		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 1</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 2</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-1.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 1</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 2</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 1</figcaption>
+		        <a href="img/tiling-work/bath.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Tiled bathroom in Skibbereen</figcaption>
 		        </a>
 		    </figure>
 
 		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 2</figcaption>
+		        <a href="img/tiling-work/kitchen-tiling-4.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Tiled kitchen in Skibbereen</figcaption>
 		        </a>
 		    </figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-1.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 1</figcaption>
+			    <a href="img/tiling-work/bathroom-tiling-cork.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Tiling work in Clonakilty by our quality tilers</figcaption>
 			    </a>
 			</figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 2</figcaption>
-			    </a>
-			</figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 1</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 2</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-1.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 1</figcaption>
+			    <a href="img/tiling-work/floor-tiling.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Floor tiling in Skibbereen</figcaption>
 			    </a>
 			</figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 2</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 1</figcaption>
+		        <a href="img/tiling-work/bathroom-tiling-cork-3.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Bathroom tiling in Bantry</figcaption>
 		        </a>
 		    </figure>
 
 		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 2</figcaption>
+		        <a href="img/tiling-work/bathroom-tiling-cork-4.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">A tiled shower in Dunmanway. Tiler: Bob Draper</figcaption>
 		        </a>
 		    </figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-1.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 1</figcaption>
+			    <a href="img/tiling-work/floor-tiling-2.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Tiled floor in Skibbereen</figcaption>
 			    </a>
 			</figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 2</figcaption>
+			    <a href="img/tiling-work/tiling-shower.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Bathroom tiling in Clonakilty</figcaption>
 			    </a>
 			</figure>
 
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 1</figcaption>
+		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tiling-work/kitchen-tiling.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Kitchen tiling in Skibbereen</figcaption>
 		        </a>
 		    </figure>
 
 		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="large-image-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Long image description 2</figcaption>
+		        <a href="img/tiling-work/bathroom-tiling-cork-2.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Bathroom tiles in Skibbereen by Bob Draper tiler</figcaption>
 		        </a>
 		    </figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-1.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 1</figcaption>
+			    <a href="img/tiling-work/kitchen-tiling-2.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Kitchen tiles in Skibbereen</figcaption>
 			    </a>
 			</figure>
 
 			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="large-image-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Long image description 2</figcaption>
+			    <a href="img/tiling-work/kitchen-tiling-3.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Kitchen tiling in Bantry</figcaption>
 			    </a>
 			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tiling-work/cork-bathroom-tiling-3.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Bathroom tiles in West Cork</figcaption>
+		        </a>
+		    </figure>
+
+		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tiling-work/kitchen-tiling-cork.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Kitchen tiling in Skibbereen, by Bob Draper tiler</figcaption>
+		        </a>
+		    </figure>
+
+		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tiling-work/mosaic-tiling.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Mosaic tiles in Cork by our skilled tiler</figcaption>
+		        </a>
+		    </figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			    <a href="img/tiling-work/cork-bathroom-tiling-2.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Tiled bath in Bantry</figcaption>
+			    </a>
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			    <a href="img/tiling-work/mosaic-tiling.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Mosaic Tiles in Clonaklity</figcaption>
+			    </a>
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			    <a href="img/tiling-work/mosaic-tiling-2.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Mosaic tiling Cork</figcaption>
+			    </a>
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			    <a href="img/tiling-work/tiling-cork.jpg" itemprop="contentUrl">
+			        <figcaption itemprop="caption description">Decorative tiling in Dunmanway</figcaption>
+			    </a>
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tiling-work/cork-bathroom-tiling-1.jpg" itemprop="contentUrl">
+		            <figcaption itemprop="caption description">Bathroom tiling in Clonakilty</figcaption>
+		        </a>
+		    </figure>
+
+
+
 		</div>
-
-
-
-
-		<div class="gallery">
-			<a href="img/tiling-work/bath.jpg" data-caption="Tiled bathroom in Skibbereen">s</a>
-			<a href="img/tiling-work/kitchen-tiling-4.jpg" data-caption="Tiled kitchen in Skibbereen" >s</a>
-			<a href="img/tiling-work/bathroom-tiling-cork.jpg" "Tiling work in Clonakilty by our quality tilers" >s</a>
-			<a href="img/tiling-work/floor-tiling.jpg" "Floor tiling in Skibbereen">s</a>
-			<a href="img/tiling-work/bathroom-tiling-cork-3.jpg" data-caption="Bathroom tiling in Bantry" >s</a>
-			<a href="img/tiling-work/bathroom-tiling-cork-4.jpg" data-caption="A tiled shower in Dunmanway. Tiler: Bob Draper" >s</a>
-			<a href="img/tiling-work/floor-tiling-2.jpg" data-caption="Tiled floor in Skibbereen" >s</a>
-			<a href="img/tiling-work/tiling-shower.jpg" data-caption="Bathroom tiling in Clonakilty" >s</a>
-			<a href="img/tiling-work/kitchen-tiling.jpg" data-caption="Kitchen tiling in Skibbereen" >s</a>
-			<a href="img/tiling-work/bathroom-tiling-cork-2.jpg" data-caption="Bathroom tiles in Skibbereen by Bob Draper tiler">s</a>
-			<a href="img/tiling-work/kitchen-tiling-2.jpg" data-caption="Kitchen tiles in Skibbereen" >s</a>
-			<a href="img/tiling-work/kitchen-tiling-3.jpg" data-caption="Kitchen tiling in Bantry" >s</a>
-			<a href="img/tiling-work/cork-bathroom-tiling-3.jpg" data-caption="Bathroom tiles in West Cork" >s</a>
-			<a href="img/tiling-work/kitchen-tiling-cork.jpg" data-caption="Kitchen tiling in Skibbereen, by Bob Draper tiler" >s</a>
-			<a href="img/tiling-work/mosaic-tiling-cork.jpg" data-caption="Mosaic tiles in Cork by our skilled tiler" >s</a>
-			<a href="img/tiling-work/cork-bathroom-tiling-2.jpg" data-caption="Tiled bath in Bantry" >s</a>
-			<a href="img/tiling-work/mosaic-tiling.jpg" data-caption="Mosaic Tiles in Bantry" >s</a>
-			<a href="img/tiling-work/mosaic-tiling-2.jpg" data-caption="Mosaic tiling Cork" >s</a>
-			<a href="img/tiling-work/tiling-cork.jpg" data-caption="Decorative tiling in Dunmanway" >s</a>
-			<a href="img/tiling-work/cork-bathroom-tiling-1.jpg" data-caption="Bathroom tiling in Clonakilty" >s</a>
-		</div>
-		-->
 
 		<hr>
 
