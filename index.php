@@ -104,6 +104,16 @@
 			#gallery-descriptions {
 				display: none;
 			}
+
+			#main-footer {
+				margin-top: 60px;
+				background-color: #333;
+				color: #fff;
+				padding: 30px 0 20px;
+			}
+			#main-footer p, #main-footer span, #main-footer a, #main-footer i {
+				color: #fff;
+			}
 		</style>
 
 
@@ -145,13 +155,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">West Cork Tiling</a>
+					<a class="navbar-brand" href="/">West Cork Tiling</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="tiling-work.php">Work</a></li>
-						<li><a href="contact.php">Contact</a></li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="tiling-work">Work</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="about">About</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
@@ -172,8 +182,8 @@
 						</p>
 
 						<!-- Hero buttons -->
-						<a href="#" class="hero__btn btn btn-lg2 btn-danger">Get a Quotation</a>
-						<a href="#about" class="hero__btn btn btn-lg2 btn-link">Find out more</a>
+						<a href="contact" class="hero__btn btn btn-lg2 btn-danger">Get a Quotation</a>
+						<a href="about" class="hero__btn btn btn-lg2 btn-link">Find out more</a>
 
 					</div>
 				</div> <!-- / .row -->
@@ -227,234 +237,44 @@
 						No job is too big or too small, so why not take a look at some of our previous work and call us for a quote, or fill out our enquiries form and we will be in touch to discuss your requirements.
 					</p>
 					<br>
-					<a class="btn btn-danger pull-right" href="contact.php" title="Get a quotation">Get a Quotation</a>
+					<a class="btn btn-danger pull-right" href="contact" title="Get a quotation">Get a Quotation</a>
 				</section>
 			</section>
 
 		</div>
 
-		<!-- Root element of PhotoSwipe. Must have class pswp. -->
-		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-		    <!-- Background of PhotoSwipe.
-		         It's a separate element, as animating opacity is faster than rgba(). -->
-		    <div class="pswp__bg"></div>
-
-		    <!-- Slides wrapper with overflow:hidden. -->
-		    <div class="pswp__scroll-wrap">
-
-		        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-		        <div class="pswp__container">
-		            <!-- don't modify these 3 pswp__item elements, data is added later on -->
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		        </div>
-
-		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-		        <div class="pswp__ui pswp__ui--hidden">
-
-		            <div class="pswp__top-bar">
-
-		                <!--  Controls are self-explanatory. Order can be changed. -->
-
-		                <div class="pswp__counter"></div>
-
-		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-		                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-		                <!-- element will get class pswp__preloader--active when preloader is running -->
-		                <div class="pswp__preloader">
-		                    <div class="pswp__preloader__icn">
-		                      	<div class="pswp__preloader__cut">
-		                        	<div class="pswp__preloader__donut"></div>
-		                      	</div>
-		                    </div>
-		                </div>
-		            </div>
-
-		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-		                <div class="pswp__share-tooltip"></div>
-		            </div>
-
-		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-
-		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-
-		            <div class="pswp__caption">
-		                <div class="pswp__caption__center"></div>
-		            </div>
-
-		          </div>
-
-		    </div>
-
-		</div>
+		<?php include 'gallery.inc.php'; ?>
 
 
-
-		<div id="gallery-descriptions" itemscope itemtype="http://schema.org/ImageGallery">
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/bath.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Tiled bathroom in Skibbereen</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/kitchen-tiling-4.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Tiled kitchen in Skibbereen</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/bathroom-tiling-cork.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Tiling work in Clonakilty by our quality tilers</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/floor-tiling.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Floor tiling in Skibbereen</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/bathroom-tiling-cork-3.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Bathroom tiling in Bantry</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/bathroom-tiling-cork-4.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">A tiled shower in Dunmanway. Tiler: Bob Draper</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/floor-tiling-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Tiled floor in Skibbereen</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/tiling-shower.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Bathroom tiling in Clonakilty</figcaption>
-			    </a>
-			</figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/kitchen-tiling.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Kitchen tiling in Skibbereen</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/bathroom-tiling-cork-2.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Bathroom tiles in Skibbereen by Bob Draper tiler</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/kitchen-tiling-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Kitchen tiles in Skibbereen</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/kitchen-tiling-3.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Kitchen tiling in Bantry</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/cork-bathroom-tiling-3.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Bathroom tiles in West Cork</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/kitchen-tiling-cork.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Kitchen tiling in Skibbereen, by Bob Draper tiler</figcaption>
-		        </a>
-		    </figure>
-
-		    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/mosaic-tiling.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Mosaic tiles in Cork by our skilled tiler</figcaption>
-		        </a>
-		    </figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/cork-bathroom-tiling-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Tiled bath in Bantry</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/mosaic-tiling.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Mosaic Tiles in Clonaklity</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/mosaic-tiling-2.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Mosaic tiling Cork</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-			    <a href="img/tiling-work/tiling-cork.jpg" itemprop="contentUrl">
-			        <figcaption itemprop="caption description">Decorative tiling in Dunmanway</figcaption>
-			    </a>
-			</figure>
-
-			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-		        <a href="img/tiling-work/cork-bathroom-tiling-1.jpg" itemprop="contentUrl">
-		            <figcaption itemprop="caption description">Bathroom tiling in Clonakilty</figcaption>
-		        </a>
-		    </figure>
-
-
-
-		</div>
-
-		<hr>
-
-
-
-		<div class="container">
-			<div class="row" itemscope itemtype="http://schema.org/LocalBusiness">
-				<section class="col-md-4">
-					<p itemprop="telephone">
-						<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> (028) 38460
-					</p>
-				</section>
-				<section class="col-md-4" itemprop="telephone">
-					<p>
-						<i class="glyphicon glyphicon-phone" aria-hidden="true"></i>  (087) 6244562
-					</p>
-				</section>
-				<section class="col-md-4">
-					<a href="mailto:info@westcorktiling.com" itemprop="email">
-						<i class="glyphicon glyphicon-email" aria-hidden="true"></i> info@westcorktiling.com
+		<footer id="main-footer" class="row">
+			<section class="col-md-4">
+				<p class="text-center" itemprop="telephone">
+					<i class="glyphicon glyphicon-phone-alt" aria-hidden="true"></i>
+					<a href="tel:+353-28-38460">
+						<span itemprop="telephone"> (028) 38460</span>
 					</a>
-					</p>
-				</section>
-			</div>
-		</div>
-
-		<hr>
-
-		<footer class="row center-block">
-			<small>&copy; <?php echo date("Y"); ?> Bob Draper Tiling</small>
+				</p>
+			</section>
+			<section class="col-md-4">
+				<p class="text-center">
+					<i class="glyphicon glyphicon-phone" aria-hidden="true"></i>
+					<a href="tel:+353-87-6244562">
+						<span itemprop="telephone"> (087) 6244562</span>
+					</a>
+				</p>
+			</section>
+			<section class="col-md-4">
+				<p class="text-center">
+					<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+					<a href="mailto:info@westcorktiling.com">
+						<span itemprop="email"> info@westcorktiling.com</span>
+					</a>
+				</p>
+			</section>
 		</footer>
+
+
 
 
 
