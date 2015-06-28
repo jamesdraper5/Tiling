@@ -12,7 +12,10 @@
 		<meta name="description" content="West Cork Tiling offers high quality tiling in the West Cork area at an affordable price. If you need a tiler in the West Cork area then look no further.">
 		<meta itemprop="name" content="West Cork Tiling">
 		<meta itemprop="description" content="West Cork Tiling offers high quality tiling in the West Cork area at an affordable price. If you need a tiler in the West Cork area then look no further.">
-		<meta itemprop="url" content="http://www.westcorktiling.com" >
+		<meta itemprop="url" content="http://www.westcorktiling.com">
+		<meta itemprop="address" content="Ardralla, Church Cross, Skibbereen. Co. Cork">
+		<meta itemprop="geo" content="51.536850, -9.338330">
+		<meta itemprop="photo" content="http://www.westcorktiling.com/img/kitchen-tiling-4.jpg">
 
 		<!-- Twitter Card meta tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -22,7 +25,6 @@
 		<meta name="twitter:description" content="West Cork Tiling - quality affordable tiling in West Cork">
 		<meta name="twitter:image" content="http://www.westcorktiling.com/img/kitchen-tiling-4.jpg">
 
-		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Italianno|Mate+SC|Arvo" type="text/css"> -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400|Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/reset.css" media="screen" />
 		<link rel="stylesheet" href="css/text.css" media="screen" />
@@ -529,7 +531,7 @@
 
 
 		<div class="container">
-			<div class="row">
+			<div class="row" itemscope itemtype="http://schema.org/LocalBusiness">
 				<section class="col-md-4">
 					<p itemprop="telephone">
 						<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> (028) 38460
@@ -690,9 +692,8 @@
 
 				    // define options (if needed)
 				    var options = {
-				             // history & focus options are disabled on CodePen
-				        history: false,
-				        focus: false,
+				        history: true,
+				        focus: true,
 
 				        showAnimationDuration: 0,
 				        hideAnimationDuration: 0
