@@ -404,9 +404,90 @@
 	"buffers":
 	[
 		{
+			"file": "/Users/James/Sites/Tiling/index.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-home.inc.php",
+			"settings":
+			{
+				"buffer_size": 2511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nav.inc.php",
+			"settings":
+			{
+				"buffer_size": 787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.inc.php",
+			"settings":
+			{
+				"buffer_size": 3336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.inc.php",
+			"settings":
+			{
+				"buffer_size": 1261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gallery.inc.php",
+			"settings":
+			{
+				"buffer_size": 8271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/James/Sites/Tiling/index2.php",
+			"settings":
+			{
+				"buffer_size": 6762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/James/Sites/Tiling/js/script.js",
+			"settings":
+			{
+				"buffer_size": 3038,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/James/Sites/Tiling/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/James/Sites/Tiling/tiling-work.php",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-work.inc.php",
+			"settings":
+			{
+				"buffer_size": 2501,
 				"line_ending": "Unix"
 			}
 		}
@@ -539,6 +620,7 @@
 	},
 	"file_history":
 	[
+		"/Users/james/Sites/tiling/.htaccess",
 		"/Users/James/Sites/wedding/api/vendor/barryvdh/laravel-cors/src/CorsServiceProvider.php",
 		"/Users/James/Sites/wedding/src/app/components/widget-photos/def.coffee",
 		"/Users/James/Sites/wedding/src/app/components/widget-photos/template.html",
@@ -665,8 +747,7 @@
 		"/Users/James/Sites/d3-test/index.html",
 		"/Users/James/Sites/d3-test/style.css",
 		"/Users/James/Sites/d3-test/basicData.js",
-		"/private/etc/apache2/extra/httpd-userdir.conf",
-		"/private/etc/apache2/extra/httpd-default.conf"
+		"/private/etc/apache2/extra/httpd-userdir.conf"
 	],
 	"find":
 	{
@@ -674,7 +755,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/James/Sites/wedding/api",
@@ -694,6 +775,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<?",
+			".php",
+			"itemscope",
+			"http://photoswipe.s3.amazonaws.com/pswp",
+			"http://photoswipe.s3-eu-west-1.amazonaws.com/pswp",
+			"view o",
+			"683",
+			"img/",
+			"bower_components",
 			"origin",
 			"allowedOrigins",
 			"origin",
@@ -812,16 +902,7 @@
 			"vars.to",
 			"listItem",
 			"600",
-			": '-200px'",
-			": '-100px'",
-			": 0",
-			"0",
-			"animspeed",
-			"3200",
-			"paraslider",
-			"btns",
-			"untitled",
-			"50"
+			": '-200px'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -899,14 +980,15 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/Users/James/Sites/Tiling/index.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 181,
 						"regions":
 						{
 						},
@@ -914,15 +996,288 @@
 						[
 							[
 								0,
-								0
+								181
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "page-home.inc.php",
+					"settings":
+					{
+						"buffer_size": 2511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2511,
+								2511
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "nav.inc.php",
+					"settings":
+					{
+						"buffer_size": 787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.inc.php",
+					"settings":
+					{
+						"buffer_size": 3336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2167,
+								2167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 23.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "footer.inc.php",
+					"settings":
+					{
+						"buffer_size": 1261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "gallery.inc.php",
+					"settings":
+					{
+						"buffer_size": 8271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/James/Sites/Tiling/index2.php",
+					"settings":
+					{
+						"buffer_size": 6762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6716,
+								6716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1794.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/James/Sites/Tiling/js/script.js",
+					"settings":
+					{
+						"buffer_size": 3038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2640,
+								2640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/James/Sites/Tiling/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/James/Sites/Tiling/tiling-work.php",
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "page-work.inc.php",
+					"settings":
+					{
+						"buffer_size": 2501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2501,
+								2501
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -975,6 +1330,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"work",
+				"tiling-work.php"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"script.js",
+				"js/script.js"
+			],
+			[
+				"index2",
+				"index2.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
 			[
 				"mail",
 				"api/config/mail.php"

@@ -1,3 +1,33 @@
+<?php
+session_start();
+$urlPath = $_SERVER['REQUEST_URI'];
+$currentPage = "";
+
+$navItems = array(
+	'Work'   => '/tiling-work',
+	'Contact' => '/contact',
+	'About'  => '/about'
+);
+
+switch ( $urlPath ) {
+	case "/tiling-work":
+		$currentPage = "work";
+		break;
+	case "/contact":
+		$currentPage = "contact";
+		break;
+	case "/about":
+		$currentPage = "about";
+		break;
+	case "/":
+		$currentPage = "home";
+		break;
+	default:
+		break;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/GeneralContractor">
 	<head>
@@ -60,4 +90,4 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
- 	<body>
+ 	<body class="<?php echo $currentPage ?>">

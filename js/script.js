@@ -129,5 +129,21 @@ $(document).ready(function() {
 
 	$('.js-show-gallery').on('click', openPhotoSwipe);
 
+	if ( !$("body").hasClass("home") ) {
+
+		$(".navbar").toggleClass("navbar-default navbar-inverse");
+
+	} else {
+
+		$("body.home").waypoint(function() {
+		    $(".navbar").toggleClass("js-navbar-top");
+		    $(".navbar.js-toggleClass").toggleClass("navbar-default navbar-inverse");
+		    return false;
+		}, { offset: "-20px" });
+
+	}
+
+
 });
+
 

@@ -1,0 +1,5 @@
+<section itemscope itemtype="http://schema.org/PostalAddress" >
+	<h1>About West Cork Tiling</h1>
+	<p>West Cork Tiling is a website promoting the services of Bob Draper, a professional tiler based near <span itemprop="addressLocality">Skibbereen</span> in County <span itemprop="addressRegion">Cork</span>. Bob has over ten years experience in the tiling industry and prides himself on his high quality work and attention to detail. Having worked in the construction industry for almost thirty years, Bob has a wealth of experience and expertise in tiling and general construction subjects, and is always willing to offer advice on your tiling project.</p>
+	<p>Tiling services are available anywhere in the <span itemprop="addressRegion">West Cork</span> area, from <span itemprop="addressLocality">Dunmanway</span> to <span itemprop="addressLocality">Clonakilty</span> and <span itemprop="addressLocality">Schull</span> to <span itemprop="addressLocality">Bandon</span>.</p>
+</section>

@@ -27,6 +27,7 @@
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="bower_components/photo.swipe/dist/photoswipe.min.js"></script>
 	<script type="text/javascript" src="bower_components/photo.swipe/dist/photoswipe-ui-default.min.js"></script>
 	<script src="js/script.js"></script>
