@@ -123,6 +123,7 @@ $(document).ready(function() {
 
 	    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
 	    gallery.init();
+	    //$('.main-section').addClass('blur');
 	};
 
 	//openPhotoSwipe();

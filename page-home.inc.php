@@ -1,4 +1,4 @@
-<div id="home">
+<div id="home" class="main-section">
 
 	<div class="hero hero_agency">
 		<div class="container">
