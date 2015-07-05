@@ -4,12 +4,16 @@ $urlPath = $_SERVER['REQUEST_URI'];
 $currentPage = "";
 
 $navItems = array(
+    'Home'   => '/',
 	'Work'   => '/tiling-work',
 	'Contact' => '/contact',
 	'About'  => '/about'
 );
 
 switch ( $urlPath ) {
+	case "/":
+		$currentPage = "home";
+		break;
 	case "/tiling-work":
 		$currentPage = "work";
 		break;
@@ -18,9 +22,6 @@ switch ( $urlPath ) {
 		break;
 	case "/about":
 		$currentPage = "about";
-		break;
-	case "/":
-		$currentPage = "home";
 		break;
 	default:
 		break;
