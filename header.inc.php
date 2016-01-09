@@ -92,3 +92,5 @@ switch ( $urlPath ) {
 		<![endif]-->
 	</head>
  	<body class="<?php echo $currentPage ?>">
+
+ 	<?php include 'nav.inc.php'; ?>
