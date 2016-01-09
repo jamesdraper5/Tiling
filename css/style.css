@@ -92,6 +92,17 @@ h1 {
     background-color: transparent;
 }
 
+/*** Navbar on mobile ***/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
 .hero_agency {
   background-image: url(/img/bathroom-tiles-dark.jpg);
   text-align:center;
