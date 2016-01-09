@@ -1,4 +1,4 @@
-<div id="contact" class="main-section">
+<div id="contact" class="main-section top-padding">
 
     <div class="container">
 

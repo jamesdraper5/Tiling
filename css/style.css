@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+}
+.main-section {
+  min-height: 100%;
+  /* equal to footer height */
+  padding-bottom: 160px;
+  margin-bottom: -140px;
+}
+.main-section:after {
+  content: "";
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -115,7 +129,12 @@ h1 {
 #main-footer p, #main-footer span, #main-footer a, #main-footer i {
   color: #fff;
 }
-
+.top-padding {
+  padding-top: 80px;
+}
+.margintop20 {
+  margin-top: 20px;
+}
 /******************************
  SECTIONS
  *****************************/
@@ -126,22 +145,9 @@ h1 {
 }
 
 /*********** Work ************/
-#work {
-    padding: 80px 0 160px;
-}
 #work .work-section h2 {
     margin: 20px 0 40px;
 }
 #work .work-section p {
     margin: 30px 0;
-}
-
-/*********** Contact ************/
-#contact {
-    padding: 80px 0 160px;
-}
-
-/*********** About ************/
-#about {
-    padding: 80px 0 160px;
 }

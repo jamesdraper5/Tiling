@@ -1,4 +1,4 @@
-<div id="work" class="main-section">
+<div id="work" class="main-section top-padding">
 
 	<div class="container">
 		<div class="row">
