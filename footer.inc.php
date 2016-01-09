@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="bower_components/photo.swipe/dist/photoswipe.min.js"></script>
 	<script type="text/javascript" src="bower_components/photo.swipe/dist/photoswipe-ui-default.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 
   	</body>
