@@ -61,16 +61,16 @@ h1 {
   background-color: transparent;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 
@@ -80,15 +80,15 @@ h1 {
     border-color: #e6e6e6;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color: #f67280;
+    color: #A94442;
     background-color: transparent;
 }
 
@@ -116,6 +116,13 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+      padding: 200px 0 70px;
+  }
+}
+
 .hero .btn-link {
   color: #fff;
 }
